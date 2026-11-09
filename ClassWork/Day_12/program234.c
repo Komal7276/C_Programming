@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+int main()
+{
+    char Arr[100];
+
+    printf("Enter String : \n");
+    scanf("%[^'\n']s", Arr);
+
+    printf("Entered String is : %s\n", Arr);
+
+    return EXIT_SUCCESS;
+}
